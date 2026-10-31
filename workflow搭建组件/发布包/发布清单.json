@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "skills": [
+    "workflow搭建组件/01-对齐当前状态/Skill草稿/paper-align-state/SKILL.md",
+    "workflow搭建组件/01-对齐当前状态/Skill草稿/paper-update-state/SKILL.md",
+    "workflow搭建组件/02-找论文并分层/Skill草稿/paper-find-screen/SKILL.md",
+    "workflow搭建组件/03-场景解释，再决定深入程度/Skill草稿/paper-explain-and-select/SKILL.md",
+    "workflow搭建组件/04-原文定位＋提问式阅读/Skill草稿/paper-read-with-questions/SKILL.md",
+    "workflow搭建组件/05-三笔记分别记录/Skill草稿/paper-record-three-notes/SKILL.md",
+    "workflow搭建组件/06-分类，积累写作范例/Skill草稿/paper-classify-content/SKILL.md",
+    "workflow搭建组件/06-分类，积累写作范例/Skill草稿/paper-collect-writing-examples/SKILL.md",
+    "workflow搭建组件/07-留一句写作参考/Skill草稿/paper-keep-writing-reference/SKILL.md",
+    "workflow搭建组件/08-归档与关系图/Skill草稿/paper-archive/SKILL.md"
+  ],
+  "files": [
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/Skill草稿/paper-align-state/SKILL.md",
+      "sha256": "ec2345bf61c3ba65d04419ddf980cc81ee5061ae7ffd1b946c74b89f5e237d64"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/Skill草稿/paper-update-state/SKILL.md",
+      "sha256": "214377548d1c06fa449b6378dc147c2a61290909727507792df49af958bd701d"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/临时成果约定.md",
+      "sha256": "88a8cd6a7f2041d5c84e4172f64da42c8c6ee233eef0b25f6482bebc88efec9e"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/文献/示例论文/关系候选.md",
+      "sha256": "06128650c05b5706695802f4e7f7d28de252c7fe3eb2e244ff8a86d3ce467bdc"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/文献/示例论文/写作范例.md",
+      "sha256": "a88e552cc15cd713c22d49e49566d7a1bc98c5a9bcc6026e5275dcfb95de08c5"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/文献/示例论文/引用候选.md",
+      "sha256": "1c0a64143720d469764f90f0120fdd3b1eb2d4cc1ea26db9bacc2d1d62798240"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/文献/示例论文/笔记一草稿.md",
+      "sha256": "17a502a23d77b21a965d6ba6a596f7d3f868aa25876804c073d70c8129465e80"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/文献/示例论文/笔记三草稿.md",
+      "sha256": "1ea2cd43dc005d3c48414c0c6e601ac6b44a4e0aa0526f1e199741db033f3e9e"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/文献/示例论文/笔记二草稿.md",
+      "sha256": "3f1be50b17468f6f0547562550504c76c1710d11d6f38d30981ae0951e83fa2f"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/文献/示例论文/选文记录/示例评估.md",
+      "sha256": "c9fad5428fdbe789a268705e8ab4f9aa6cd03ab00af363d4e2e796833e55746b"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/用户原话.md",
+      "sha256": "d3adf15322350591f956f484e6e2da00e3368b1886cc995d5e0a61d31fd250dd"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/任务成果/示例任务/索引.md",
+      "sha256": "e536feaa13f70a73c03fca22d9a45e9d1e08fd23954b8219c30c3d5e316195b7"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态样稿/行为规则.md",
+      "sha256": "072a7b22492090a26a030ad928381ab890460110a62206f4a1396316805a9d6c"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/状态约定.md",
+      "sha256": "5480ed001e36980a067765dcdbd160f29fc9c4a53fcb19cf04484f10003c65e3"
+    },
+    {
+      "path": "workflow搭建组件/01-对齐当前状态/行为规则约定.md",
+      "sha256": "3d9eb21431c5472497ba3ce3b79d7fb76b13cc1a673bb25af1d1f2712dd952c5"
+    },
+    {
+      "path": "workflow搭建组件/02-找论文并分层/Skill草稿/paper-find-screen/SKILL.md",
+      "sha256": "597e3b7a463ee7c3c69f14ef5f766a62ff86cca0a9a5b07b3eb50d8d98c39e0f"
+    },
+    {
+      "path": "workflow搭建组件/02-找论文并分层/UndermindMCP调用约定.md",
+      "sha256": "92e1de7afe7898d736d3f9120e8057723c8f524e5c0dcf1c41019f33235cc427"
+    },
+    {
+      "path": "workflow搭建组件/03-场景解释，再决定深入程度/Skill草稿/paper-explain-and-select/SKILL.md",
+      "sha256": "521b7a3e51cb8589145048137e84b3ae969cc963563c07193b6b7909e2aa6cdb"
+    },
+    {
+      "path": "workflow搭建组件/03-场景解释，再决定深入程度/解释与选择约定.md",
+      "sha256": "4dfd0997a0df64ea3d203d9df66d76e5c724ec3756b0eb0d313e9107651495e5"
+    },
+    {
+      "path": "workflow搭建组件/04-原文定位＋提问式阅读/Skill草稿/paper-read-with-questions/SKILL.md",
+      "sha256": "b44635b2842e7a121b8ff105c04e47917b8281e79896e0e7b875c7d540f1c985"
+    },
+    {
+      "path": "workflow搭建组件/04-原文定位＋提问式阅读/阅读与提问约定.md",
+      "sha256": "35c5c34d72bae6d21c14fe7ef9b2f3055fc2d620e56e8c0334f494f1d9c58685"
+    },
+    {
+      "path": "workflow搭建组件/05-三笔记分别记录/Skill草稿/paper-record-three-notes/SKILL.md",
+      "sha256": "5bf973294282134fa8329c5fc07e10616cc6650ca3afeec44da766ca2d51a9ff"
+    },
+    {
+      "path": "workflow搭建组件/05-三笔记分别记录/三笔记约定.md",
+      "sha256": "60875ed5d002fb13aa39773eb9ee362baf2becefcc195199a7d654bf60e14108"
+    },
+    {
+      "path": "workflow搭建组件/06-分类，积累写作范例/Skill草稿/paper-classify-content/SKILL.md",
+      "sha256": "6b02a7b440b4d855ba029678d17b5de53d31127e59ec31083a6075c721a12e8d"
+    },
+    {
+      "path": "workflow搭建组件/06-分类，积累写作范例/Skill草稿/paper-collect-writing-examples/SKILL.md",
+      "sha256": "1adfe27847dc1e00b0f0b80eaf170339dd91eb156b298e7dcdefccc31e767941"
+    },
+    {
+      "path": "workflow搭建组件/06-分类，积累写作范例/共享约定.md",
+      "sha256": "ec260733019dd9532df29297539f04fa5bd5d34933888de44296459f85d1d8ba"
+    },
+    {
+      "path": "workflow搭建组件/06-分类，积累写作范例/内容分类约定.md",
+      "sha256": "d645690402453b4219342637f001674c100cb34442b26e3d74265093a0355843"
+    },
+    {
+      "path": "workflow搭建组件/06-分类，积累写作范例/写作范例约定.md",
+      "sha256": "ec67d7067d58fd0b1ab60ad42ba297191477b8ee9d05cc34a1d1adebcec14d65"
+    },
+    {
+      "path": "workflow搭建组件/07-留一句写作参考/Skill草稿/paper-keep-writing-reference/SKILL.md",
+      "sha256": "4bf3e3661bf1469285900762e54c02189f4f3959d4d0d2766d14835093c101b8"
+    },
+    {
+      "path": "workflow搭建组件/07-留一句写作参考/参考句约定.md",
+      "sha256": "1b2bc33bce870c49fed77a06df180727f1bd9e54fe3912f838c1aa8fdd991945"
+    },
+    {
+      "path": "workflow搭建组件/08-归档与关系图/Skill草稿/paper-archive/SKILL.md",
+      "sha256": "0147bb0a77809636b3ce9f6417887f94e8b45e1b694ab50d3b66b4df48bb9877"
+    },
+    {
+      "path": "workflow搭建组件/08-归档与关系图/归档约定.md",
+      "sha256": "81bcff445ec59e03570951ccb34cd1ee56943a9cc9ec4428cca413c347b6ac15"
+    },
+    {
+      "path": "workflow搭建组件/08-归档与关系图/选文记录约定.md",
+      "sha256": "328776e66fd36a5d738b7fbb1ecaf57832b11b952a19166eaca25cf037d0f9b9"
+    },
+    {
+      "path": "设计记录.md",
+      "sha256": "48b04e1ae0ce939642a390b72eac1c394439c561bc9a5db7b3e5d393243ccac4"
+    }
+  ]
+}

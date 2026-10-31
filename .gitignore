@@ -1,0 +1,17 @@
+# Publish an allowlist. All local research, caches and maintenance evidence stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/workflow搭建组件/
+/workflow搭建组件/*
+!/workflow搭建组件/发布包/
+!/workflow搭建组件/发布工具/
+/workflow搭建组件/发布包/**/__pycache__/
+/workflow搭建组件/发布工具/**/__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+node_modules/
