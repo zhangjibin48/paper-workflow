@@ -3,6 +3,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/工作流使用指南.md
 !/workflow搭建组件/
 /workflow搭建组件/*
 !/workflow搭建组件/发布包/

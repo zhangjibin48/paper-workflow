@@ -44,7 +44,9 @@ def main():
         content=(match.group(0)+'\n# 论文工作流执行入口\n\n'
                  f'执行前完整读取 [阶段规则](<{target.as_posix()}>)，并按其中条件读取引用资源。'
                  '相对路径相对于被引用的发布文件所在目录解析。'
-                 '实际状态目录与论文从当前工作区及用户请求取得。\n')
+                 '实际状态目录与论文从当前工作区及用户请求取得。'
+                 '用户明确调用并下令开始后才启动业务阶段；完成后停止等待。'
+                 '当前阶段内部的对齐读取与日常保存按阶段控制约定返回调用方。\n')
         plans.append((entry,content))
     if release.exists():
         existing=json.loads((release/'发布清单.json').read_text(encoding='utf-8'))
