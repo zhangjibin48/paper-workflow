@@ -1,5 +1,5 @@
 {
- "version": "1.1.0",
+ "version": "1.2.0",
  "skills": [
   "workflow搭建组件/01-对齐当前状态/Skill草稿/paper-align-state/SKILL.md",
   "workflow搭建组件/01-对齐当前状态/Skill草稿/paper-update-state/SKILL.md",
@@ -91,15 +91,43 @@
   },
   {
    "path": "workflow搭建组件/04-原文定位＋提问式阅读/Drawio制图约定.md",
-   "sha256": "34be2d8e067ea6d0ba61a84386fa8fc8ebf2b25556c9e4ea34849273153fe739"
+   "sha256": "a3eabd888831ba80cb819784442214a3a2166b3ebebcff9fb06ddca512e3953e"
   },
   {
    "path": "workflow搭建组件/04-原文定位＋提问式阅读/Skill草稿/paper-read-with-questions/SKILL.md",
-   "sha256": "280dcbc76a22cfd967b48adbb52c56157bc7797057ba88ffa2f0c4e11a7a0557"
+   "sha256": "b5d13fd2b21b96794988dca13c1ac4f02a9f8ed96acda53a25b09242ed43d43a"
+  },
+  {
+   "path": "workflow搭建组件/04-原文定位＋提问式阅读/制图示例/中文横向样式.drawio",
+   "sha256": "94f24820b0366e600930fe72f6a0f9faf6cccd600c6c2e0e1d7da60c7df7d943"
+  },
+  {
+   "path": "workflow搭建组件/04-原文定位＋提问式阅读/制图示例/模型架构.png",
+   "sha256": "c2c0f5fc9f8ebeb7ca39d3641bcb226cb1d8568646e9215202af58b3db0437e1"
+  },
+  {
+   "path": "workflow搭建组件/04-原文定位＋提问式阅读/制图示例/模型训练.png",
+   "sha256": "e0612439fbbcaea71f1782b13978b251cbb0b9fe54f34c52248e3a2484fe3e01"
+  },
+  {
+   "path": "workflow搭建组件/04-原文定位＋提问式阅读/制图示例/示例说明.md",
+   "sha256": "70e2e386da672c90fa8cb671afd98f0eafd2957dcff2307ad62c7c604d08f926"
+  },
+  {
+   "path": "workflow搭建组件/04-原文定位＋提问式阅读/制图示例/规划执行.png",
+   "sha256": "4fc0072b036dc99a4b6eaba7aa336d8b6aae776d2a6bf9f0d5c9912a1ed7ce72"
+  },
+  {
+   "path": "workflow搭建组件/04-原文定位＋提问式阅读/制图示例/连线正误.drawio",
+   "sha256": "c26e7be1bdd46493c305812bbc00b7b63f039551a9bb648f658fba7f3377a476"
+  },
+  {
+   "path": "workflow搭建组件/04-原文定位＋提问式阅读/制图示例/连线正误.png",
+   "sha256": "f793ea4fb8e29fe240296b9324ffe6b0541b43d515ffe1199accf7b09d14f31b"
   },
   {
    "path": "workflow搭建组件/04-原文定位＋提问式阅读/阅读与提问约定.md",
-   "sha256": "3fc47379b9848f10a53650637761cd5b40df5108ade5da487918eec6f896f45f"
+   "sha256": "19ab839042bb8a4caab62cf731186f7696146e435dbce01edb99be3425efbb01"
   },
   {
    "path": "workflow搭建组件/05-三笔记分别记录/Skill草稿/paper-record-three-notes/SKILL.md",
@@ -151,7 +179,7 @@
   },
   {
    "path": "设计记录.md",
-   "sha256": "e4f61b14ddc73b03f297c7cea221f1fc4fe3b7b3a876cf83fadd7d56212b192c"
+   "sha256": "8ca2f18dad41437f16441bd0fc6b47d2576d4cade171bd67c916ef8e98e343bf"
   },
   {
    "path": "阶段控制约定.md",

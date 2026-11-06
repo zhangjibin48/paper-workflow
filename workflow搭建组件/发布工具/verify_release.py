@@ -1,15 +1,46 @@
 """Verify package references and real isolated installation/replacement behavior."""
-import hashlib,json,re,subprocess,sys,tempfile
+import hashlib,json,re,struct,subprocess,sys,tempfile
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import unquote
 from install import PACKAGE,verify
 
+def verify_drawio(path):
+    document=ET.parse(path)
+    pages=document.findall('diagram')
+    assert document.getroot().tag=='mxfile' and pages,path
+    for page in pages:
+        root=page.find('mxGraphModel/root')
+        assert root is not None,(path,page.get('name'),'uncompressed model required')
+        cells={c.get('id'):c for c in root}
+        assert len(cells)==len(root) and None not in cells,(path,'duplicate/missing IDs')
+        for cell in root:
+            parent=cell.get('parent')
+            assert parent is None or parent in cells,(path,'missing parent',parent)
+            seen={cell.get('id')}
+            while parent is not None:
+                assert parent not in seen,(path,'parent cycle')
+                seen.add(parent);parent=cells[parent].get('parent')
+            if cell.get('edge')=='1':
+                assert cell.get('source') in cells and cell.get('target') in cells,(path,'missing connector terminal')
+                assert cell.find('mxGeometry') is not None,(path,'missing edge geometry')
+
 def main():
     manifest=verify()
+    declared={(PACKAGE/item['path']).resolve() for item in manifest['files']}
     for item in manifest['files']:
         path=PACKAGE/item['path']
+        if path.suffix=='.png':
+            data=path.read_bytes()
+            assert data[:8]==b'\x89PNG\r\n\x1a\n' and data[12:16]==b'IHDR' and data[-8:-4]==b'IEND',path
+            width,height=struct.unpack('>II',data[16:24])
+            assert width>0 and height>0,path
+            continue
         text=path.read_text(encoding='utf-8')
         assert not re.search(r'\b[A-Za-z]:[\\/]|@gmail|sk-[A-Za-z0-9]{12,}',text),path
+        if path.suffix=='.drawio':
+            verify_drawio(path)
+            continue
         # The package uses Markdown inline links, with snippets fenced out.
         plain=re.sub(r'```.*?```','',text,flags=re.S)
         for link in re.findall(r'\]\(([^)]+)\)',plain):
@@ -17,7 +48,7 @@ def main():
             if not link or re.match(r'^[a-z]+:',link):
                 continue
             target=(path.parent/unquote(link)).resolve()
-            assert target.is_relative_to(PACKAGE.resolve()) and target.exists(),(path,link)
+            assert target.is_relative_to(PACKAGE.resolve()) and target.is_file() and target in declared,(path,link)
     scripts=Path(__file__).resolve().parent
     with tempfile.TemporaryDirectory(prefix='paper-workflow-release-') as temp:
         root=Path(temp)
@@ -28,6 +59,8 @@ def main():
         assert len(receipt['entries'])==10
         release=Path(receipt['release'])
         verify(release)
+        for item in manifest['files']:
+            assert (release/item['path']).read_bytes()==(PACKAGE/item['path']).read_bytes(),item['path']
         entries={p:Path(p).read_bytes() for p in (x['entry'] for x in receipt['entries'])}
         blocked=subprocess.run(command,capture_output=True)
         assert blocked.returncode!=0 and all(Path(p).read_bytes()==v for p,v in entries.items())
